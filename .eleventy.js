@@ -23,6 +23,7 @@ async function imageShortcode(src, alt, sizes) {
 
 
 module.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("CNAME");
     eleventyConfig.ignores.add("**.md");
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addPairedShortcode("markdown", (content) => {
