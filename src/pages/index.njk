@@ -7,9 +7,18 @@ title: Ella M. Lee
     <div class="flex-row">
         {% image "assets/images/logo.png", "Ella M. Lee", "300w" %}
     </div>
-    <div class="w-fit lg:w-2/3 grid divide-y divide-gray-400/25 mx-auto place-items-center">
-        <div class="text-4xl">
-            <p class="space-x-4 text-2xl mt-2">
+    <div class="w-fit lg:w-2/3 grid mx-auto place-items-center">
+        <hr class="border-1 border-gray-200 w-1/2 mt-6" />
+        <!--
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+              <span style="font-size: 40px; background-color: #F3F5F6; padding: 0 10px;">
+                  §
+                </span>
+        </div>
+        -->
+        <div class="grid text-2xl place-items-center mt-4">
+            <p>Want to keep up to date on news or say hello? Use the links below!</p>
+            <p class="space-x-4 mt-2">
                 <a href="https://www.amazon.com/author/ellamlee">
                     <i class="lni lni-amazon-original"></i>
                 </a>
@@ -30,7 +39,8 @@ title: Ella M. Lee
             </p>
         </div>
         <div class="grid mt-4 text-4xl place-items-center">
-            <h2>Published Books</h2>
+            <hr class="border-1 border-gray-200 w-1/2 mt-6" />
+            <h2 class="mt-4">Published Books</h2>
             <div class="grid grid-rows-2 grid-cols-4 gap-8 mt-8">
                 <div>
                     <a href="https://www.amazon.com/dp/B0876D2KL3?tag=&linkCode=osi&th=1&psc=1">
@@ -69,13 +79,21 @@ title: Ella M. Lee
                 </div>
             </div>
         </div>
-        <div class="grid mt-4 place-items-center">
+        <hr class="border-1 border-gray-200 w-1/2 mt-4" />
+        <div class="grid mt-6 place-items-center">
             <h2 class="text-4xl">About Ella</h2>
-                <article class="max-w-prose prose prose-a:text-light-blue-600">
+                <article class="mt-4 text-2xl max-w-prose prose prose-a:text-light-blue-600">
                     {% markdown %}
                         {%- include "./about.md" %}
                     {% endmarkdown %}
                 </article>      
         </div>
+        <hr class="border-1 border-gray-200 w-1/2 mt-4" />
+        <div class="mt-4">
+            <p>
+            Copyright 2022 Ella M. Lee | Website Lovingly Crafted by explainedbycats
+            </p>
+        </div>
+
     </div>
 </div>
