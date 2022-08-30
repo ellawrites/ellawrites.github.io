@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./includes/*.{njk,md}", "./*.{njk,md}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+          'crimson-text': ['"Crimson Text"']
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
