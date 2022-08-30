@@ -1,0 +1,81 @@
+---
+layout: layout_base.njk
+permalink: "/"
+title: Ella M. Lee
+---
+<div class="min-h-screen bg-gray-50 p-8 flex flex-col justify-center relative overflow-hidden items-center">
+    <div class="flex-row">
+        {% image "assets/images/logo.png", "Ella M. Lee", "300w" %}
+    </div>
+    <div class="w-fit lg:w-2/3 grid divide-y divide-gray-400/25 mx-auto place-items-center">
+        <div class="text-4xl">
+            <p class="space-x-4 text-2xl mt-2">
+                <a href="https://www.amazon.com/author/ellamlee">
+                    <i class="lni lni-amazon-original"></i>
+                </a>
+                <a href="https://www.facebook.com/ellamleewrites">
+                    <i class="lni lni-facebook-original"></i>
+                </a>
+                <a href="https://www.instagram.com/ella_m_lee">
+                    <i class="lni lni-instagram-original"></i> </a>
+                <a href="https://www.goodreads.com/ellamleewrites">
+                    <i class="lni lni-goodreads"></i>
+                </a>
+                <a href="https://twitter.com/EllaMLeeWrites">
+                    <i class="lni lni-twitter"></i>
+                </a>
+                <a href="mailto:inquiries@ellamlee.com?subject=Inquiry%20from%20Website">
+                    <i class="lni lni-envelope"></i>
+                </a>
+            </p>
+        </div>
+        <div class="grid mt-4 text-4xl place-items-center">
+            <h2>Published Books</h2>
+            <div class="grid grid-rows-2 grid-cols-4 gap-8 mt-8">
+                <div>
+                    <a href="https://www.amazon.com/dp/B0876D2KL3?tag=&linkCode=osi&th=1&psc=1">
+                    {% image "assets/images/fire-within-cover.jpg", "Fire Within cover", "(min-width: 20em) 50vw 100vw" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B0876D8N14?tag=&linkCode=osi&th=1&psc=1">
+                    {% image "assets/images/ignited-cover.jpg", "Ignited cover", "width: 100%" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B08777QN2N?tag=&linkCode=osi&th=1&psc=1">
+                    {% image "assets/images/ashes-cover.jpg", "Ashes cover", "width: 100%" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B08XWLYYMG?tag=&linkCode=osi&th=1&psc=1">
+                    {% image "assets/images/spark-cover.jpg", "Spark cover", "width: 100%" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B09HYS8LTH?tag=&linkCode=ogi&th=1&psc=1">
+                    {% image "assets/images/storm-cover.jpg", "Storm cover", "width: 100%" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B09VDMQSZW?tag=&linkCode=ogi&th=1&psc=1">
+                    {% image "assets/images/dark-blaze-cover.jpg", "Dark Blaze cover", "width: 100%" %}
+                    </a>
+                </div>
+                <div>
+                    <a href="https://www.amazon.com/dp/B08H289G7V?tag=&linkCode=osi&th=1&psc=1">
+                    {% image "assets/images/soul-bound-cover.jpg", "Dark Blaze cover", "width: 100%" %}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="grid mt-4 place-items-center">
+            <h2 class="text-4xl">About Ella</h2>
+                <article class="max-w-prose prose prose-a:text-light-blue-600">
+                    {% markdown %}
+                        {%- include "./about.md" %}
+                    {% endmarkdown %}
+                </article>      
+        </div>
+    </div>
+</div>

@@ -1,0 +1,4 @@
+Ella M. Lee spent years in the tech industry before getting back to her story-crafting roots. In her spare time, she likes to travel, cook, drink tea and coffee, and spend some weekday mornings repeating moves, spins, and jumps over and over again for her figure skating coaches. She has a loving husband and two semi-loving cats who share her home near Boston, MA.
+
+
+Ella receives a lot of support when writing her books. The Fire Within Series is edited by [Courtney Kelly](https://www.fiverr.com/kellycourtney) and [Crystal Watanabe](https://www.pikkoshouse.com/), and the book covers are designed by [Bookfly Design](https://www.bookflydesign.com/). The Soul Bound Series uses cover designs and some editing from [Danielle Fine](https://www.daniellefine.com/). Ella’s author photos were taken by [Tim Renzi](https://www.timothyrenzi.com/).
