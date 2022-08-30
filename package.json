@@ -1,7 +1,7 @@
 {
   "scripts": {
      "build": "eleventy --serve && tailwindcss -i ./src/input.css -o css/tailwind.css --watch",
-     "build-prod": "eleventy && tailwindcss -i ./src/input.css -o css/tailwind.css --minify"
+     "build-prod": "tailwindcss -i ./src/input.css -o css/tailwind.css --minify && eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
