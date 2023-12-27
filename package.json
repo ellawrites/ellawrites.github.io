@@ -5,8 +5,8 @@
     "build-prod": "tailwindcss -i ./src/css/input.css -o _site/css/tailwind.css --minify && eleventy"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "@11ty/eleventy-img": "^2.0.1",
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.8",
     "@tailwindcss/typography": "^0.5.4",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
